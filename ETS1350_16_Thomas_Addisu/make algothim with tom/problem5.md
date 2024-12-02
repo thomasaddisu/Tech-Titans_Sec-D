@@ -17,10 +17,9 @@
 4. Calculate the time taken in seconds:
    - time_taken = file_size / rate
 5. Convert time taken from seconds to days, hours, and minutes:
-   - days = time_taken // 86400
-   - hours = (time_taken % 86400) // 3600
-   - minutes = (time_taken % 3600) // 60
-   - seconds = time_taken % 60
+   - days = (time_taken)/ 86400
+   - hours = (time_taken )/ 3600
+   - minutes = (time_taken ) / 60
 6. Print the time taken in days, hours, minutes, and seconds
 7. End
     
